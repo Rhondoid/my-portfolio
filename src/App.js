@@ -10,8 +10,14 @@ function App() {
   //   if (currentPage === 'About') {
   //     return <About />;
   //   }
-  //   if (currentPage === 'Blog') {
-  //     return <Blog />;
+  //   if (currentPage === 'Projects') {
+  //     return <Projects />;
+  //   }
+  //   if (currentPage === 'Resume') {
+  //     return <Resume />;
+  //   }
+  //  if (currentPage === 'Contact') {
+  //     return <Contact />;
   //   }
   //   return <Contact />;
   // };
