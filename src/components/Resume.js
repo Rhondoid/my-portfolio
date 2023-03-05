@@ -6,7 +6,7 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
+      <h2>Resume page</h2>
       {/* <a href="./public/index.html/resume.pdf" download className="resume-link">Download Resume</a> */}
     </div>
   );

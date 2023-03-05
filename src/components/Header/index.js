@@ -1,4 +1,5 @@
 import Nav from "../Nav";
+   
 
 function Header({currentPage, handlePageChange}){
     
@@ -12,6 +13,7 @@ return (
         handlePageChange={handlePageChange}
         />
     </header>
+    
 )
 }
 

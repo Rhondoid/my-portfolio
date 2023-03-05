@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -31,10 +32,12 @@ function App() {
   return (
  <div>
  <Header handlePageChange={handlePageChange}currentPage={currentPage}/>
+ 
  {/* We are passing the currentPage from state and the function to update it */}
  {/* <Nav currentPage={currentPage} handlePageChange={handlePageChange} /> */}
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer handlePageChange={handlePageChange}currentPage={currentPage}/>
  </div>
   );
 }

@@ -1,16 +1,17 @@
-import Footer from "../Footer";
+import Nav from "../Nav";
 
 function Footer({currentPage, handlePageChange}){
     
 return (
     <header>
-        <h1>links to websites</h1>
+        <h1>I'm a footer</h1>
         
         <Nav 
         currentPage={currentPage}
         handlePageChange={handlePageChange}
         />
     </header>
+    
 )
 }
 
