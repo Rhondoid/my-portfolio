@@ -8,6 +8,15 @@ export default function Resume() {
     <div>
       <h2>Resume page</h2>
       {/* <a href="./public/index.html/resume.pdf" download className="resume-link">Download Resume</a> */}
+      <p>
+        Proficiencies:
+        React
+        MERN
+        Express
+        Sequelize
+        Mysql
+        Bcrypt
+      </p>
     </div>
   );
 }

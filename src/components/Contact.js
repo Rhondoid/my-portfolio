@@ -13,20 +13,35 @@ export default function Contact() {
       setEmailError('Enter valid Email!')
     }
   }
+  const [nameError, setNameError] = useState('')
+  const validateName = (e) => {
+    var name = e.target.value
   
+    if (!validator.isEmpty(name)) {
+      setNameError('Valid Name :)')
+    } else {
+      setNameError('Enter valid name!')
+    }
+  }
   return (
     <form >
       <label>
         Name:
-        <input type="text"  />
+        <input type="text" onBlur={(e) => validateName(e)} />
       </label>
       <br></br>
+      <span style={{
+          fontWeight: 'bold',
+          color: 'red',
+        }}>{nameError}</span>
+        <br></br>
       <label>
-        email:
+        Email:
         <input type="text" onChange={(e) => validateEmail(e)}></input> 
 
       </label>
       <br></br>
+
       <span style={{
           fontWeight: 'bold',
           color: 'red',
