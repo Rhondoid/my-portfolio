@@ -1,3 +1,4 @@
+import React from 'react';
 function Nav({ currentPage, handlePageChange }) {
   console.log(currentPage);
   return (
