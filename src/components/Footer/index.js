@@ -4,12 +4,12 @@ function Footer({currentPage, handlePageChange}){
     
 return (
     <header>
-        <h1>I'm a footer</h1>
-        
+        <h4>I'm a footer</h4>
+{/*         
         <Nav 
         currentPage={currentPage}
         handlePageChange={handlePageChange}
-        />
+        /> */}
     </header>
     
 )
