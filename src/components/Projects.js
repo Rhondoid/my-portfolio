@@ -35,18 +35,12 @@ export default function Projects() {
       return (
         <div>
           <h1>Projects Page</h1>
-          {projects.map(project => (
+          {/* {projects.map(project => (
             <Projects key={project.id} {...project} />
-          ))}
+          ))} */}
         </div>
       );
     
-//   return (
-//     <div>
-//       <h1>Projects Page</h1>
-   
-//     </div>
-//   );
 }
 
   

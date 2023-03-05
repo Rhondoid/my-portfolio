@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <React
+      {/* <React
       initialValues={{ name: '', email: '', message: '' }}
       validate={values => {
         const errors = {};
@@ -51,7 +51,7 @@ export default function Contact() {
           </button>
         </Form>
       )}
-    </React>
+    </React> */}
     <div className='contact'>
       <li>Phone# 555-555-5555</li>
       <li><a href="https://github.com/Rhondoid">GitHub</a></li>
