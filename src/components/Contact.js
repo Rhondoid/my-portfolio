@@ -9,6 +9,17 @@ export default function Contact() {
         Name:
         <input type="text"  />
       </label>
+      <br></br>
+      <label>
+        email:
+        <input type="text"  />
+      </label>
+      <br></br>
+      <label>
+        message:
+        <input type="text"  />
+      </label>
+      <br></br>
       <input type="submit" value="Submit" />
     </form>
   );
