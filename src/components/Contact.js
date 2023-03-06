@@ -53,7 +53,9 @@ export default function Contact() {
       </label>
       <br></br>
       <input type="submit" value="Submit" />
+      
     </form>
+    
   );
   
   }
