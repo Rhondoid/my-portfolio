@@ -13,14 +13,14 @@ export default function Projects() {
       id: 2,
       title: 'Date-A-Base',
       description: 'This is the application to randomly select a meal, movie and drink for date night',
-      image: 'https://github.com/Rhondoid/The-Date-a-base/blob/main/assets/images/homepage.png',
+      image: 'DateABase.png',
       url: 'https://github.com/Rhondoid/The-Date-a-base'
     },
     {
       id: 3,
       title: 'Pet Feed',
       description: 'This project is a social media platform for pets',
-      image: 'https://github.com/Rhondoid/petfeed/blob/main/app.png',
+      image: 'PetFeedImage.jpg.png',
       url: 'https://github.com'
     },
     {
