@@ -9,6 +9,8 @@
   This is a React application featuring my portfolio to showcase my projects and skills. 
   
   ## Usage
+  https://rhondoid.github.io/my-portfolio/
+  
 ![image](https://user-images.githubusercontent.com/110504360/223415880-e5bda0a5-bc5d-419e-909d-d242b5a6f1da.png)
 
   
