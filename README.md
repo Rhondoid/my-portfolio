@@ -9,7 +9,7 @@
   This is a React application featuring my portfolio to showcase my projects and skills. 
   
   ## Usage
- ![image](https://user-images.githubusercontent.com/110504360/223015770-2f1bffa1-8505-4b28-8693-56c81bcdee7b.png)
+![image](https://user-images.githubusercontent.com/110504360/223415880-e5bda0a5-bc5d-419e-909d-d242b5a6f1da.png)
 
   
   ## Credits
